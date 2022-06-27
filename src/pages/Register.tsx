@@ -17,6 +17,7 @@ export default function Register() {
                 email,
                 password,
             })
+            
         })
 
         const data = await response.json()
